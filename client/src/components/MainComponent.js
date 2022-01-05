@@ -57,8 +57,8 @@ class Main extends Component {
                     <CSSTransition key={this.props.location.key} classNames="page" timeout={300}>
                         <Switch>
                             <Route path='/home' component={HomePage} />
-                            <Route path='api/historical' render={() => <Historical reports={this.props.reports} />} />
-                            <Route path='api/historical/:reportId' component={ReportWithId} />
+                            <Route path='/historical' render={() => <Historical reports={this.props.reports} />} />
+                            <Route path='/historical/:reportId' component={ReportWithId} />
                             <Route exact path='/about' render={() => <About />} />
                             <Route exact path='/contact' render={() => <Contact postFeedback={this.props.postFeedback} resetFeedbackForm={this.props.resetFeedbackForm} /> } />
                             <Redirect to='/home' />
