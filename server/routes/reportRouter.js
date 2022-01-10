@@ -18,7 +18,7 @@ reportRouter.route('/')
 
 reportRouter.route('/:reportId')
 .options(cors.corsWithOptions, (req, res) => res.sendStatus(200))
-    .get((req, res, next) => {
+    .get(cors.cors, (req, res, next) => {
         Report.findById(req.params.reportId)
         .then(report => {
             res.statusCode = 200;

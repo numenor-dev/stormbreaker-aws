@@ -9,7 +9,7 @@ function About() {
                     <h2>About Us</h2>
                     <p>Storm Breaker is a a real time severe weather tracker
                         built with React, React-Redux, Express, MongoDB,
-                        and fetching the Weather.gov RESTful API.
+                        and the Weather.gov API.
                     </p>
                 </div>
             </div>
