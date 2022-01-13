@@ -4,7 +4,7 @@ var path = require('path');
 var logger = require('morgan');
 const config = require('./config');
 
-
+var indexRouter = require('./routes/index');
 const feedbackRouter = require('./routes/feedbackRouter');
 const reportRouter = require('./routes/reportRouter');
 
