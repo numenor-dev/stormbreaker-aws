@@ -51,7 +51,7 @@ class Header extends Component {
                     </NavItem>
                     <NavItem style={{marginRight: 10}}>
                         <NavLink className="nav-link" to="/about">
-                            <i className="fa fa-info fa-sm" /> About Us
+                            <i className="fa fa-info fa-sm" /> About
                         </NavLink>
                     </NavItem>
                     <NavItem style={{marginRight: 10}}>

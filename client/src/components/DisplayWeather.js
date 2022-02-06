@@ -1,6 +1,5 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
-import LoadingComponent from './LoadingComponent';
 
 function DisplayWeather({ data }) {
     

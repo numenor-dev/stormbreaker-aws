@@ -42,12 +42,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 // app.use(cookieParser('12345-64329-32340-22493'));
 
-app.use('/', indexRouter)
+// app.use('/', indexRouter)
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/feedback', feedbackRouter);
-app.use('/api/reports', reportRouter);
+app.use('/api/report', reportRouter);
 
 
 // catch 404 and forward to error handler

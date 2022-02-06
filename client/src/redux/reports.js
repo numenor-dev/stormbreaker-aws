@@ -18,4 +18,4 @@ export const Reports = (state = {
         default:
             return state;
     }
-};
+}

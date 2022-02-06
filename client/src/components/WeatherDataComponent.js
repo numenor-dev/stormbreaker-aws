@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Form, Button, Row, Col, Container } from 'reactstrap';
 import { Control, Errors } from 'react-redux-form';
 import DisplayWeather from './DisplayWeather';
-import LoadingComponent from './LoadingComponent';
+import { Loading } from './LoadingComponent';
 
 
 function WeatherData() {

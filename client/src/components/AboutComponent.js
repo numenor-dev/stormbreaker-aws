@@ -1,12 +1,15 @@
 import React from 'react';
-import { Fade } from 'react-animation-components';
 
 function About() {
     return (
         <div className="container">
             <div className="row-content align-items-center">
                 <div className="col-6">
-                    <h2>About Us</h2>
+                <Breadcrumb>
+                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                    <BreadcrumbItem active>About</BreadcrumbItem>
+                </Breadcrumb>
+                    <h2>About</h2>
                     <p>Storm Breaker is a a real time severe weather tracker
                         built with React, React-Redux, Express, MongoDB,
                         and the Weather.gov API.
