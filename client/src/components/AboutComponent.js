@@ -12,7 +12,7 @@ function About() {
                     <BreadcrumbItem active>About</BreadcrumbItem>
                 </Breadcrumb>
                     <h2>About</h2>
-                    <p>Storm Breaker is a a real time severe weather tracker
+                    <p> Storm Breaker is a a real time severe weather tracker
                         built with React, React-Redux, Express, MongoDB,
                         and the Weather.gov API.
                     </p>
