@@ -8,7 +8,7 @@ import { baseUrl } from '../shared/baseUrl';
 function RenderReportItem({report}) {
     return (
         <Card>
-            <Link to={`/historical/${report.id}`}>
+            <Link to={`/historical/${report._id}`}>
                 <CardImg width="100%" src={baseUrl + report.image} alt={report.name} />
                 <CardImgOverlay>
                     <CardTitle>{report.name}</CardTitle>
@@ -22,7 +22,7 @@ function Historical(props) {
     
     const historical = props.reports.reports.map(report => {
         return (
-            <div key={report.id} className="col-md-5 m-1">
+            <div key={report._id} className="col-md-5 m-1">
                 <RenderReportItem report={report} />
             </div>
         );
