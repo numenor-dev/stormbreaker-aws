@@ -43,7 +43,7 @@ class Main extends Component {
         const ReportWithId = ({match}) => {
             return (
                 <ReportInfo
-                    report={this.props.reports.reports.filter(report => report.id === match.params.reportId)[0]}
+                    report={this.props.reports.reports.filter(report => report._id === match.params.reportId)[0]}
                     isLoading={this.props.reports.isLoading}
                     errMess={this.props.reports.errMess}
                 />
