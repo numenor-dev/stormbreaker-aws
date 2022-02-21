@@ -47,7 +47,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/feedback', feedbackRouter);
-app.use('/api/report', reportRouter);
+app.use('/api/reports', reportRouter);
 
 
 // catch 404 and forward to error handler
