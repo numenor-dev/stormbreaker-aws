@@ -7,6 +7,7 @@ import { FadeTransform } from 'react-animation-components';
 
 function RenderReports({report}) {
     return(
+        <React.StrictMode>
         <div className="col-sm-4 m-1">
             <FadeTransform
                 in
@@ -18,11 +19,13 @@ function RenderReports({report}) {
                 </Card>
             </FadeTransform>
         </div>
+        </React.StrictMode>
     );
 };
 
 function RenderReportDescription({report}) {
     return(
+        <React.StrictMode>
         <div className="col m-1">
             <FadeTransform
                 in
@@ -36,6 +39,7 @@ function RenderReportDescription({report}) {
                 </Card>
             </FadeTransform>
         </div>
+        </React.StrictMode>
     )
 }
 

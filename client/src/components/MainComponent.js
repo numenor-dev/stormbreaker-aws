@@ -13,6 +13,7 @@ import { postFeedback, fetchReports } from '../redux/ActionCreators';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 
+
 const mapStateToProps = state => {
     return {
         reports: state.reports
@@ -24,7 +25,6 @@ const mapDispatchToProps = {
     resetFeedbackForm: () => (actions.reset('feedbackForm')),
     fetchReports: () => (fetchReports())
 };
-
 
 
 class Main extends Component {
@@ -51,6 +51,7 @@ class Main extends Component {
         };
 
         return (
+            <React.StrictMode>
             <div>
                 <Header />
                 <TransitionGroup>
@@ -66,9 +67,12 @@ class Main extends Component {
                     </CSSTransition>
                 </TransitionGroup>
                 <Footer />
-            </div>
-        );
-    }
+            </div> 
+            </React.StrictMode>
+        ); 
+    } 
 }
+
+
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Main));
