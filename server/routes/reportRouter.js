@@ -14,7 +14,17 @@ reportRouter.route('/')
             res.json(reports);
         })
         .catch(err => next(err));
-    })   
+    })
+.post(cors.corsWithOptions, (req, res, next) => {
+    Report.create(req.body)
+    .then(report => {
+        console.log('Report Created ', report);
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.json(report);
+    })
+    .catch(err => next(err));
+});
 
 reportRouter.route('/:reportId')
 .options(cors.corsWithOptions, (req, res) => res.sendStatus(200))
