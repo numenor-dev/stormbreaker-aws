@@ -3,44 +3,27 @@ import { Link } from 'react-router-dom';
 import { Card, CardImg, CardBody, CardText, Breadcrumb, BreadcrumbItem, Fade } from 'reactstrap';
 import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
-import { FadeTransform } from 'react-animation-components';
 
 function RenderReports({report}) {
     return(
-        <React.StrictMode>
         <div className="col-sm-4 m-1">
-            <FadeTransform
-                in
-                transformProps={{
-                    exitTransform: 'scale(0.5) translateY(-50%)'
-                }}>
                 <Card style={{ padding: 10}}>
                     <CardImg top src={baseUrl + report.image} alt={report.name} />
                 </Card>
-            </FadeTransform>
         </div>
-        </React.StrictMode>
     );
-};
+}
 
 function RenderReportDescription({report}) {
     return(
-        <React.StrictMode>
         <div className="col m-1">
-            <FadeTransform
-                in
-                transformProps={{
-                    exitTransform: 'scale(0.5) translate(-50%)'
-                }}>
                 <Card>
                     <CardBody style={{paddingTop: 4, paddingBottom: 4, paddingLeft: 10, paddingRight: 10}}>
                         <CardText>{report.description}</CardText>
                     </CardBody>
                 </Card>
-            </FadeTransform>
         </div>
-        </React.StrictMode>
-    )
+    );
 }
 
 
