@@ -1,38 +1,40 @@
-[
-    {
-        "_id" : "60c812672ff778818dd71eea",
-        "id" : 0.0,
-        "name" : "Great Sleet of February 1883",
-        "image" : "images/lincoln_sleet.jpg",
-        "featured" : true,
-        "description" : "As Lincoln's climate records only go back to 1905, some investigation was done as to the background of this particular event. The Army Signal Service, which was responsible for weather maps and forecasts at the time, published the following weather map from the morning of Saturday, February 3. As the theory of frontal boundaries was unknown in meteorology at the time, we have added the approximate locations of the storm system and associated warm and cold fronts. An area of low pressure was in southeast Missouri, with a warm front arcing northeast through east central Illinois and northern Indiana. Temperatures were in the 20s across central Illinois, with 30s observed along and south of the current I-70 corridor.",
-        "link" : "https://www.weather.gov/ilx/1883sleet"
-    },
-    {
-        "_id" : "60c812862ff778818dd71eeb",
-        "id" : 1.0,
-        "name" : "The July 1936 Heat Wave",
-        "image" : "images/dustbowl.jpg",
-        "featured" : false,
-        "description" : "July 1936, part of the Dust Bowl, produced one of the hottest summers on record across the country, especially across the Plains, Upper Midwest, and Great Lakes regions.  Nationally, about 5,000 people died from the heat.  The heat was accentuated due to a prolonged drought that was affecting the region, and poor farming methods which left little vegetation to help mitigate the hot temperatures.  In Illinois, many locations saw peak temperatures in excess of 110 degrees at the height of the heat wave, with all-time high temperature records established during this period.",
-        "link" : "https://www.weather.gov/ilx/july1936heat"
-    },
-    {
-        "_id" : "60c813432ff778818dd71eec",
-        "id" : 2.0,
-        "name" : "Valentines Blizzard of February 12-13, 2007",
-        "image" : "images/deland.jpg",
-        "featured" : false,
-        "description" : "One of the most significant snowstorms in nearly a decade struck central Illinois on February 13, producing blizzard conditions in many locations. Snow began falling during the late evening hours of February 12 and did not come to an end until 24 hours later. The extended period of snow produced impressive accumulations across parts of central Illinois, particularly along the I-72 corridor where between 10 and 15 inches was common. Further north and south, snow totals gradually tapered downward. The precipitation began as rain across southeast Illinois, then changed to a brief period of freezing rain, sleet, and snow during the afternoon. As a result, snow accumulations south of I-70 were minimal, generally only an inch or two.",
-        "link" : "https://www.weather.gov/ilx/13feb07"
-    },
-    {
-        "_id" : "60c8135e2ff778818dd71eed",
-        "id" : 3.0,
-        "name" : "2012 Christmas Day Tornado Outbreak",
-        "image" : "images/tornado.jpg",
-        "featured" : false,
-        "description" : "A powerful low pressure system moved out of the Plains on Christmas Day, producing a large scale tornado outbreak across parts of east Texas, Louisiana, Mississippi, Alabama and the Florida panhandle on Christmas in 2012. Numerous strong storms developed in the afternoon on December 25th ahead of a cold front with an accompanying squall line. Multiple tornadoes (some long-track tornadoes) developed and produced damage across the region in the afternoon and evening hours on Christmas. Showers and storms (mostly elevated in nature) developed and moved across the area in the late morning hours as the dense fog lifted and a warm front pushed northeast through the area. This large shield of showers and storms temporarily stabilized the atmosphere over the region in the late morning. However, the cloud cover began to break up in the early afternoon and temperatures quickly climbed, which led to the development of more storms by the mid to late afternoon hours. The 18 UTC special sounding from LIX (Slidell, LA) showed an atmosphere primed with ingredients conducive for supercell thunderstorm generation and strong, long-track tornadoes.",
-        "link" : "https://www.weather.gov/mob/2012_Dec25_Tornado"
-    }
-]
+[{
+	"_id": {
+		"$oid": "60c812672ff778818dd71eea"
+	},
+	"featured": true,
+	"name": "Great Sleet of February 1883",
+	"image": "images/lincoln_sleet.jpg",
+	"description": "As Lincoln's climate records only go back to 1905, some investigation was done as to the background of this particular event. The Army Signal Service, which was responsible for weather maps and forecasts at the time, published the following weather map from the morning of Saturday, February 3. As the theory of frontal boundaries was unknown in meteorology at the time, we have added the approximate locations of the storm system and associated warm and cold fronts. An area of low pressure was in southeast Missouri, with a warm front arcing northeast through east central Illinois and northern Indiana. Temperatures were in the 20s across central Illinois, with 30s observed along and south of the current I-70 corridor.",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "60c812862ff778818dd71eeb"
+	},
+	"featured": false,
+	"name": "The July 1936 Heat Wave",
+	"image": "images/dustbowl.jpg",
+	"description": "July 1936, part of the Dust Bowl, produced one of the hottest summers on record across the country, especially across the Plains, Upper Midwest, and Great Lakes regions.  Nationally, about 5,000 people died from the heat.  The heat was accentuated due to a prolonged drought that was affecting the region, and poor farming methods which left little vegetation to help mitigate the hot temperatures.  In Illinois, many locations saw peak temperatures in excess of 110 degrees at the height of the heat wave, with all-time high temperature records established during this period.",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "60c813432ff778818dd71eec"
+	},
+	"featured": false,
+	"name": "Valentines Blizzard of February 12-13, 2007",
+	"image": "images/deland.jpg",
+	"description": "One of the most significant snowstorms in nearly a decade struck central Illinois on February 13, producing blizzard conditions in many locations. Snow began falling during the late evening hours of February 12 and did not come to an end until 24 hours later. The extended period of snow produced impressive accumulations across parts of central Illinois, particularly along the I-72 corridor where between 10 and 15 inches was common. Further north and south, snow totals gradually tapered downward. The precipitation began as rain across southeast Illinois, then changed to a brief period of freezing rain, sleet, and snow during the afternoon. As a result, snow accumulations south of I-70 were minimal, generally only an inch or two.",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "60c8135e2ff778818dd71eed"
+	},
+	"featured": true,
+	"name": "2012 Christmas Day Tornado Outbreak",
+	"image": "images/tornado.jpg",
+	"description": "A powerful low pressure system moved out of the Plains on Christmas Day, producing a large scale tornado outbreak across parts of east Texas, Louisiana, Mississippi, Alabama and the Florida panhandle on Christmas in 2012. Numerous strong storms developed in the afternoon on December 25th ahead of a cold front with an accompanying squall line. Multiple tornadoes (some long-track tornadoes) developed and produced damage across the region in the afternoon and evening hours on Christmas. Showers and storms (mostly elevated in nature) developed and moved across the area in the late morning hours as the dense fog lifted and a warm front pushed northeast through the area. This large shield of showers and storms temporarily stabilized the atmosphere over the region in the late morning. However, the cloud cover began to break up in the early afternoon and temperatures quickly climbed, which led to the development of more storms by the mid to late afternoon hours. The 18 UTC special sounding from LIX (Slidell, LA) showed an atmosphere primed with ingredients conducive for supercell thunderstorm generation and strong, long-track tornadoes.",
+	"__v": 0
+}]

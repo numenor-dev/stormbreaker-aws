@@ -4,7 +4,6 @@ const Schema = mongoose.Schema;
 const reportSchema = new Schema ({
     name: {
         type: String,
-        required: true,
         unique: true
     },
     image: { 
@@ -18,9 +17,7 @@ const reportSchema = new Schema ({
     description: {
         type: String,
         required: true,
-    }
-}, {
-    timestamps: true
+    },
 });
 
 const Report = mongoose.model('Report', reportSchema);
